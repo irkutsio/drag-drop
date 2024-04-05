@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  /* position: relative; */
+  margin: 0;
+}
+
+
+form {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+background-color: rgb(171, 125, 214);
+box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+input {
+  width: 300px;
+  padding: 4px;
+  font-size:24px ;
+  border-radius: 5px;
+  outline: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgb(50, 11, 86);
+}
+
+button {
+  box-shadow: 1px 1px 1px 0px rgb(136, 87, 182) ;
+  cursor: pointer;
+  font-size: 28px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 5px;
+  border: none;
+  color:rgb(50, 11, 86);
+}
+
+button:hover {
+  background-color: rgb(200, 187, 213);
+}
+
+.output {
+ font-size: 28px;
+}
+
+p {
+  padding: 0 20px;
+}
+
+
+
+.drop {
+  position: relative;
+  width: 100vw; 
+  height: 100vh; 
+  border: 2px solid black;
+}
+
